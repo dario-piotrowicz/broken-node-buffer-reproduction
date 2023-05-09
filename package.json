@@ -1,0 +1,25 @@
+{
+  "name": "broken-node-buffer-pages-reproduction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish-static-with": "wrangler pages publish static-with",
+    "publish-static-without": "wrangler pages publish static-without",
+    "publish-dynamic-with": "wrangler pages publish dynamic-with",
+    "publish-dynamic-without": "wrangler pages publish dynamic-without"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dario-piotrowicz/broken-node-buffer-pages-reproduction.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dario-piotrowicz/broken-node-buffer-pages-reproduction/issues"
+  },
+  "homepage": "https://github.com/dario-piotrowicz/broken-node-buffer-pages-reproduction#readme",
+  "devDependencies": {
+    "wrangler": "^2.20.0"
+  }
+}
