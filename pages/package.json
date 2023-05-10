@@ -7,7 +7,9 @@
     "publish-static-with": "wrangler pages publish static-with",
     "publish-static-without": "wrangler pages publish static-without",
     "publish-dynamic-with": "wrangler pages publish dynamic-with",
-    "publish-dynamic-without": "wrangler pages publish dynamic-without"
+    "publish-dynamic-without": "wrangler pages publish dynamic-without",
+    "publish-als-dynamic-without": "wrangler pages publish als-dynamic-without",
+    "als-static-test": "wrangler pages publish als-static-test"
   },
   "repository": {
     "type": "git",
