@@ -6,7 +6,12 @@ globalThis.process = {
 		{},
 		{
 			get: (_, property) => {
-				return Reflect.get(__ENV_ALS__.getStore(), property);
+				try {
+					return Reflect.get(__ENV_ALS__.getStore(), property);
+				} catch (e) {
+					console.error(`Error: ${e.message}`);
+					return `Error: ${e.message}`;
+				}
 			},
 			set: (_, property, value) => {
 				return Reflect.set(__ENV_ALS__.getStore(), property, value);
