@@ -1,0 +1,14 @@
+name = "als-dynamic-test-dario"
+main = "src/index.js"
+compatibility_date = "2023-05-09"
+
+compatibility_flags = [ "nodejs_compat" ]
+
+base_dir = "src"
+
+rules = [
+  { type = "ESModule", globs = ["**/*.js"]}
+]
+
+[vars]
+my-var = 'MY VALUE'
