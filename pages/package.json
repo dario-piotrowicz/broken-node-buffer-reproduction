@@ -9,7 +9,8 @@
     "publish-dynamic-with": "wrangler pages publish dynamic-with",
     "publish-dynamic-without": "wrangler pages publish dynamic-without",
     "publish-als-dynamic-test": "wrangler pages publish als-dynamic-without",
-    "publish-als-static-test": "wrangler pages publish als-static-test"
+    "publish-als-static-test": "wrangler pages publish als-static-test",
+    "publish-simple-workerjs-dir": "wrangler pages publish simple-workerjs-dir"
   },
   "repository": {
     "type": "git",
