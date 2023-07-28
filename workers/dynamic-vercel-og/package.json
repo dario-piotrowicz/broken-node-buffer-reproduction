@@ -1,0 +1,19 @@
+{
+  "name": "dynamic-vercel-og",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "bundle-vercel-og-file": "esbuild --bundle --platform=browser --loader:.js=jsx --external:'*.wasm' ./raw/getVercelOgResponse.js --format=esm --outfile=./src/getVercelOgResponse.js",
+    "deploy": "wrangler publish --no-bundle"
+  },
+  "dependencies": {
+    "@vercel/og": "^0.5.9",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.18.17",
+    "patch-package": "^8.0.0",
+    "wrangler": "^3"
+  }
+}
