@@ -10,7 +10,9 @@
     "publish-dynamic-without": "wrangler pages publish dynamic-without",
     "publish-als-dynamic-test": "wrangler pages publish als-dynamic-without",
     "publish-als-static-test": "wrangler pages publish als-static-test",
-    "publish-simple-workerjs-dir": "wrangler pages publish simple-workerjs-dir"
+    "publish-simple-workerjs-dir": "wrangler pages publish simple-workerjs-dir",
+    "generate-message-too-long-files": "cd ./workerjs-dir-message-too-long && node ./generateWorkerjs.mjs && cd ..",
+    "workerjs-dir-message-too-long": "wrangler pages publish workerjs-dir-message-too-long"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,6 @@
   },
   "homepage": "https://github.com/dario-piotrowicz/broken-node-buffer-pages-reproduction#readme",
   "devDependencies": {
-    "wrangler": "^2.20.0"
+    "wrangler": "^3.4.0"
   }
 }
