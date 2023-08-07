@@ -1,7 +1,7 @@
 import { mkdir, rm, writeFile } from 'node:fs/promises';
 
-const lastChunkNum = 20000;
-const paddingNum = `${lastChunkNum}`.length + 1;
+const lastChunkNum = 999;
+const paddingNum = `${lastChunkNum}`.length - 1;
 
 function formatChunkNum(chunkNum) {
     return `${chunkNum}`.padStart(paddingNum, '0');

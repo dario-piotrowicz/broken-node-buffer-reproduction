@@ -1,4 +1,0 @@
-export async function getMessage() {
-    const { getMessage } = await import('./chunk_006694');
-    return await getMessage();
-}
