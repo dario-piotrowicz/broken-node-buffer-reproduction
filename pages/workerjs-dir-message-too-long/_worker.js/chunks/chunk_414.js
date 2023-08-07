@@ -1,4 +1,1 @@
-export async function getMessage() {
-    const { getMessage } = await import('./chunk_415');
-    return await getMessage();
-}
+export default 414;

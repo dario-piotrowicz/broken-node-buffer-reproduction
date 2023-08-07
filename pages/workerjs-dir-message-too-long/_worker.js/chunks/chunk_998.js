@@ -1,3 +1,1 @@
-export async function getMessage() {
-    return 'hello world 998!';
-}
+export default 998;
