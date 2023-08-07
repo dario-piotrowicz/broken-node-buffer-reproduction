@@ -18,7 +18,7 @@ $ npx wrangler pages deploy .
 The deployment should fail because of the message too long error.
 
 If you want to experiment with the number of files you can re-generate the `_worker.js` directory
-via the `generateWorkerjs.mjs` not script, via:
+via the `generateWorkerjs.mjs` node script, via:
 ```
 node ./generateWorkerjs.mjs --files=N
 ```
