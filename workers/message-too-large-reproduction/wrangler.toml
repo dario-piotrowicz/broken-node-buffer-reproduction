@@ -1,0 +1,10 @@
+name = "message-too-large-reproduction"
+main = "src/index.js"
+compatibility_date = "2023-05-09"
+
+base_dir = "src"
+
+rules = [
+  { type = "ESModule", globs = ["**/*.js"]}
+]
+
